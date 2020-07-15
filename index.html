@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>conference_room</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row pt-3 shadow ">
+            <div class="col text-center pb-3">
+                <div class="badge badge-primary pl-5 pr-5 shadow-sm">
+                    <h2>Conference Room</h2></div>
+            </div>
+        </div>
+        <div class="row pt-3 pb-1 pl-1 pr-1">
+            <div class="col-sm pr-1">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <video id="first" class="embed-responsive-item" muted autoplay></video>
+                </div>
+            </div>
+            <div class="col pl-1">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <video id="second" class="embed-responsive-item" autoplay></video>
+            </div></div>
+        </div>
+        <div class="row pt-2 pb-2 shadow">
+            <div class="col-sm text-center">
+                <div id = "callbutton" class="badge badge-primary pl-3 pr-3 shadow-sm">
+                    <h4>Call</h4>
+                </div>
+                <!-- <div id = "leavebutton" class="badge badge-primary pl-3 pr-3 shadow-sm">
+                    <h4>Disconnect</h4>
+                </div> -->
+            </div>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
